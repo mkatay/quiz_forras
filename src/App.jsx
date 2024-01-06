@@ -4,6 +4,7 @@ import { Result } from './components/Result';
 import { CssBaseline, Box, Container } from "@mui/material";
 import { lightBlue } from "@mui/material/colors";
 
+
 function App() {
   const [quiz,setQuiz]=useState([])
   const [gameState,setGameState]=useState(null)
